@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES:
+AZUL: #80D2F2
+AZUL BEBÊ: #A7EBF2
+LARANJA: #D97C2B
+LARANJA-MARROM: #8C4014
+*/
+
+*:root{
+    --cor1: #80D2F2;
+    --cor2: #A7EBF2;
+    --cor3: #D97C2B;
+    --cor4: #8C4014;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+main{
+    position: relative;
+    background-color:#80D2F2;
+    height: 100vh;
+    width: 100vw;
+
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+section#login > div#foto{
+    display: block;
+    background-image: url(imagens/edificio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+section#login > div#formulario{
+    display: block;
+}
+
+ h1 , p{
+   text-align: justify;
+   margin: 15px 15px;
+}
+
+input, label{
+    display: block;
+    margin: 0px 10px;
+    
+}
+
+
+

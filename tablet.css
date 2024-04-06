@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 500px;
+    width: 670px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+
+section#login > div#foto{
+    display: block;
+    background-image: url(imagens/edificio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 250px;
+
+}
