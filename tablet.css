@@ -5,6 +5,7 @@ main{
 }
 section#login{
     width: 80vw; 
+    height: 40vh;
 }
 
 section#login > div#foto{
