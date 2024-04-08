@@ -40,8 +40,8 @@ section#login{
     top: 50%;
     left: 50%;
     background-color: white;
-    height: 540px;
-    width: 250px;
+    height: 55vh;
+    width: 50vw;
     border-radius: 15px;
     overflow: hidden;
     transform: translate(-50%, -50%);
