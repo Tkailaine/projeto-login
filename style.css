@@ -39,12 +39,14 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
-    height: 500px;
+    height: 540px;
     width: 250px;
     border-radius: 15px;
     overflow: hidden;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s, height 0.5s; /* aumentar altura e largura devagar de forma anima */
+    transition-timing-function: ease; /* suavizar transição */
     
 }
 
@@ -66,11 +68,50 @@ section#login > div#formulario{
    margin: 15px 15px;
 }
 
-input, label{
-    display: block;
-    margin: 0px 10px;
-    
+label,input{
+    display: inline;
+    width: 70%;
+    height: 30px;
 }
 
+label{
+    margin: 0px 0px 10px 10px;
+}
+input{
+    margin: 0px 0px 15px 0px;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: #D97C2B;
+    color: white;
+    width: 80%;
+    margin: auto; 
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 5px 5px 0px  rgba(0, 0, 0, 0.219);
+    cursor: pointer;
+}
+
+a.botao{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0px 5px 5px 0px  rgba(0, 0, 0, 0.096);
+    
+}
+a.botao:hover, input[type="submit"]:hover{
+  background-color: #8C4014;
+  color: white;
+    
+}
 
 
